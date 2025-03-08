@@ -69,10 +69,40 @@ The code is structured as follows:
 ---
 
 ## Results
-After training, the model achieves the following results:
-- **Training Accuracy**: [Insert training accuracy]
-- **Validation Accuracy**: [Insert validation accuracy]
-- **Test Accuracy**: [Insert test accuracy]
+The DenseNet121 model was trained for **10 epochs** on the custom dataset, achieving excellent performance across training, validation, and test sets. Below are the detailed results:
+
+### Training Performance
+- **Training Accuracy**: The model achieved a training accuracy of **99.77%** by the 10th epoch, with a training loss of **0.0089**.
+- **Validation Accuracy**: The validation accuracy reached **99.81%** by the 10th epoch, with a validation loss of **0.0063**.
+- **Test Accuracy**: The model achieved a test accuracy of **99.86%**, with a test loss of **0.0038**.
+
+### Performance Over Epochs
+The model showed consistent improvement over the training epochs:
+- **Epoch 1**: Training Accuracy = 99.05%, Validation Accuracy = 99.71%
+- **Epoch 2**: Training Accuracy = 99.59%, Validation Accuracy = 99.78%
+- **Epoch 3**: Training Accuracy = 99.69%, Validation Accuracy = 99.86%
+- **Epoch 4**: Training Accuracy = 99.67%, Validation Accuracy = 99.75%
+- **Epoch 5**: Training Accuracy = 99.73%, Validation Accuracy = 99.85%
+- **Epoch 6**: Training Accuracy = 99.76%, Validation Accuracy = 99.84%
+- **Epoch 7**: Training Accuracy = 99.78%, Validation Accuracy = 99.83%
+- **Epoch 8**: Training Accuracy = 99.79%, Validation Accuracy = 99.84%
+- **Epoch 9**: Training Accuracy = 99.69%, Validation Accuracy = 99.89%
+- **Epoch 10**: Training Accuracy = 99.77%, Validation Accuracy = 99.81%
+
+### Key Observations
+- The model achieved **high accuracy** (above 99%) on both the training and validation sets, indicating excellent learning and generalization capabilities.
+- The **test accuracy** of **99.86%** demonstrates that the model performs well on unseen data, confirming its robustness.
+- The **training and validation losses** consistently decreased over epochs, indicating stable and effective training.
+
+### Final Metrics
+| Metric          | Value       |
+|-----------------|-------------|
+| **Train Loss**  | 0.0089      |
+| **Train Acc**   | 99.77%      |
+| **Val Loss**    | 0.0063      |
+| **Val Acc**     | 99.81%      |
+| **Test Loss**   | 0.0038      |
+| **Test Acc**    | 99.86%      |
 
 ---
 
